@@ -6,6 +6,10 @@
 
 }
 
+body{
+  overflow-x: hidden;
+}
+
 div.space{
   height: 25vh;
 }
@@ -25,15 +29,15 @@ nav{
 
 a.nav-link{
   text-decoration: none;
-  color: #fff;
+  color: #fff;                               ;
   font-size: 20px;
 }
-a.nav-link-2{
-  text-decoration: none;
-  color: black;
-  font-size: 20px;
 
+.appear3 {
+  opacity: 1;
+  color:
 }
+
 .banner{
   height: 100vh;
   width: 100vw;
@@ -60,15 +64,9 @@ a.nav-link-2{
   transform: translate(-50%, -50%);
   font-size: 40px;
   text-align: center;
-}
-.banner-text-2{
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  color: black;
-  transform: translate(-50%, -50%);
-  font-size: 40px;
-  text-align: center;
+  font-family: 'Press Start 2P', cursive;
+  line-height: 75px;
+  letter-spacing: 10px;
 }
 
 .info{
