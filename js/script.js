@@ -21,18 +21,19 @@ function textAppear2(){
   }
 }
 
-function navbarAppear(){
-  const nav = document.querySelector('nav-link');
+let nav = document.querySelector('nav');
+let banner = document.querySelector('.banner');
+let bannerHeight = banner.getBoundingClientRect().bottom;
 
-  let navPosition = nav.getBoundingClientRect().top;
 
-  let screenHeight = window.innerHeight;
-
-  if(navPosition < (screenHeight-(screenHeight))){
-    nav.classList.add('')
+window.addEventListener('scroll', function(event){
+  event.preventDefault();
+  if(window.scrollY >= bannerHeight) {
+    nav.style.backgroundColor = '#000';
+  } else {
+    nav.style.backgroundColor = 'transparent';
   }
-}
+});
 
 window.addEventListener('scroll', textAppear);
 window.addEventListener('scroll', textAppear2);
-window.addEventListener('scroll', navbarAppear)
