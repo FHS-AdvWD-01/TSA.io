@@ -7,7 +7,7 @@
 }
 
 body{
-  overflow-x: hidden;
+  overflow-x: hidden
 }
 
 div.space{
@@ -25,6 +25,10 @@ nav{
   justify-content: space-around;
   align-items: center;
   z-index: 2;
+}
+
+nav.two {
+  background: #D22730;
 }
 
 a.nav-link{
