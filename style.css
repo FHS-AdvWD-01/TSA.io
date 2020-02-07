@@ -28,7 +28,8 @@ nav{
 }
 
 nav.two {
-  background: #D22730;
+  background: #3155A4;
+  position: fixed;
 }
 
 a.nav-link{

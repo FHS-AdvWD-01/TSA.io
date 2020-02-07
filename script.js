@@ -29,7 +29,7 @@ let bannerHeight = banner.getBoundingClientRect().bottom;
 window.addEventListener('scroll', function(event){
   event.preventDefault();
   if(window.scrollY >= bannerHeight) {
-    nav.style.backgroundColor = '#D22730';
+    nav.style.backgroundColor = '#3155A4';
   } else {
     nav.style.backgroundColor = 'transparent';
   }
